@@ -5,10 +5,6 @@ use 'netcat localhost 8765' to connect
 MAKE SURE YOU ARE NOT VIEWING THE STORAGE DIRECTORY WEHN STARTING THE PROGRAM;
    IT WILL GIVE YOU AN ACCESS DENIED / SOME OTHER ERROR.
 
-The mutex locks WORK ON MY MACHINE, however, sometimes when dealing with Python's 
-multiprocessing nonsense, they suddenly decide to not work and instead let the
-clients work in arbitrary order. I have no idea why.
-
 A basic socket server with a threaded client handler.
 Accepts four commands (casse sensitive):
 
